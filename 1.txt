@@ -1,0 +1,106 @@
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/khanh-lol/khanh/refs/heads/main/gui%20lua"))()
+
+local Window = OrionLib:MakeWindow({Name = "N's Pack Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Pack",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+Tab:AddLabel("The Chosen one")
+
+Tab:AddButton({
+    Name = "laziest v4",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FlavorYT/The-lazy-ONE/main/Made%20by%20leakz%20and%20EvilAlienWare"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "ssp",
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/SxripterRar/obfuscated/blob/main/probably%20not%20ssp?raw=true"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "k's tco dont click",
+    Callback = function()
+        Game.Player.LocalPlayer:Kick("script chx xong")
+    end
+})
+
+Tab:AddLabel("MeMe Sea")
+--meme sea
+Tab:AddButton({
+    Name = "Elgato Hub",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/FrostLua/Krakles/main/ElgatoHub/Loader.lua'),true))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Redz hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/MemeSea/main/Source.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "dell bt ten :)",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+    end
+})
+
+
+Tab:AddLabel("Bloc Fruit")
+--blox fruit
+Tab:AddButton({
+    Name = "Andepzai Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnDepZaiHub/AnDepZaiHubBeta/main/AnDepZaiHubBeta.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "W-Aruze",
+    Callback = function()
+          getgenv().FixCrash = false
+          getgenv().FixCrash2 = false
+          loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Knuxx Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Scriptztyz/robloxscript/main/Knuxxhub"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Redz Hub",
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Min Gaming Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAPEng"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Tsuo Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Tsuo7/TsuoHub/main/Tsuoscripts"))()
+    end
+})
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khanh-lol/khanh/refs/heads/main/Cmdx", true))()
+OrionLib:Init()
